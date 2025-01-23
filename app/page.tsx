@@ -3,7 +3,12 @@ import Link from 'next/link';
 import Navigation from "../components/Navigation";
 import gitIcon from '../public/github.png';
 import linkedIcon from '../public/linkedin.png';
+import { Metadata } from 'next';
 
+export const metadata: Metadata = {
+  title: 'Andy Nguyen Portfolio',
+  description: 'My sketchbook',
+};
 
 
 export default function Home() {
