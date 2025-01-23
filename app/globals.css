@@ -1,0 +1,137 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+.navbar {
+  height: 7rem;
+}
+
+.navbar li:nth-child(1) a:active{
+  color: red;
+}
+.navbar li:nth-child(2) a:active{
+  color: green;
+}
+.navbar li:nth-child(3) a:active{
+  color: blue;
+}
+
+.blue-border {
+  border-bottom: 1px solid lightblue;
+}
+
+ul { 
+  list-style-type: disc;
+  padding-left: 1rem;
+}
+
+
+.notebook-row {
+  border-bottom: 1px solid lightblue;
+  height: 3.5rem;
+  width: 100%;
+}
+
+.red-divider {
+  border-right: 1px solid red;
+  height: 100vh;
+  position: fixed;
+  width: 5px;
+  bottom: 0;
+  right: 0;
+  left: 15rem;
+}
+
+.sticky-note {
+  background: lightyellow;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-box-shadow: 3px 11px 7px -7px rgba(189, 189, 189, 1);
+  -moz-box-shadow: 3px 11px 7px -7px rgba(189, 189, 189, 1);
+  box-shadow: 3px 11px 7px -7px rgba(189, 189, 189, 1);
+  padding: 3rem;
+  line-height: 2;
+  font-size: 1.25rem;
+}
+
+.sticky-note-styling {
+  background: lightyellow;
+  -webkit-box-shadow: 3px 11px 7px -7px rgba(189, 189, 189, 1);
+  -moz-box-shadow: 3px 11px 7px -7px rgba(189, 189, 189, 1);
+  box-shadow: 3px 11px 7px -7px rgba(189, 189, 189, 1);
+  padding: 3rem;
+  font-size: 1.25rem;
+}
+
+.sticky-note-styling:first-child {
+  width: 450px;
+}
+
+.external-link {
+  filter: invert(8%) sepia(100%) saturate(7360%) hue-rotate(248deg) brightness(95%) contrast(144%);
+}
+
+
+.sticky-note-position {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 3rem;
+  line-height: 2;
+  font-size: 1.25rem;
+}
+
+.accordion-container { 
+  background: lightyellow;
+  position: absolute;
+  top: 400px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-box-shadow: 3px 11px 7px -7px rgba(189, 189, 189, 1);
+  -moz-box-shadow: 3px 11px 7px -7px rgba(189, 189, 189, 1);
+  box-shadow: 3px 11px 7px -7px rgba(189, 189, 189, 1);
+}
+
+.notebook-header {
+  position: absolute;
+  top: 112px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.main-container {
+  position: relative;
+}
+
+/* body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+} */
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
