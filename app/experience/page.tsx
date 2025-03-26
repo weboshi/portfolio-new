@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Navigation from "../../components/Navigation";
+import LinkIcon from "../../public/link.svg";
+
 
 
 export default function Home() {
@@ -22,15 +24,14 @@ export default function Home() {
             <div className="notebook-row"></div>
             <div className="notebook-row"></div>
             <div className="container accordion-container mx-auto">
-                <div className="collapse collapse-arrow bg-secondary">
-                    <input type="radio" name="my-accordion-2" defaultChecked />
+                <div className=" bg-secondary">
                     <div className="collapse-title text-xl font-medium">
                         <div className="text-xl font-medium flex justify-between">
-                            <h2 className="font-bold">Redymr</h2><h2>September 2024 - November 2024</h2>
+                        <span className="text-xl block font-bold"><a className="text-blue-700 inline-block external-link" target="_blank" href="https://redymr.com/">Redymr<Image alt="external link" width={20} src={LinkIcon} className='fill-red-100 inline-block' /></a></span><h2>September 2024 - November 2024</h2>
                         </div>
                         <span className="italic font-light text-base font-bold">Web & Mobile App Developer </span>
                     </div>
-                    <div className="collapse-content">
+                    <div className="collapse-content visible">
                         <ul>
                             <li>
                                 Redesigned pages to enhance user experience and flow
@@ -41,16 +42,15 @@ export default function Home() {
                         </ul>
                     </div>
                 </div>
-                <div className="collapse collapse-arrow bg-secondary">
-                    <input type="radio" name="my-accordion-2" />
+                <div className="bg-secondary">
                     <div className="collapse-title text-xl font-medium">
                         <div className="text-xl font-medium flex justify-between">
-                            <span className="text-xl block font-bold">Revel Systems</span>
+                            <span className="text-xl block font-bold"><a className="text-blue-700 inline-block external-link" target="_blank" href="https://web.archive.org/web/20230920140450/https://revelsystems.com/">Revel Systems<Image alt="external link" width={20} src={LinkIcon} className='fill-red-100 inline-block' /></a></span>
                             <span>November 2019 - June 2024</span>
                         </div>
                         <span className="italic font-light text-base font-bold">Web Developer</span>
                     </div>
-                    <div className="collapse-content">
+                    <div className="collapse-content visible">
                         <ul>
                             <li>Built out responsive pages on Nuxt utilizing HTML, SASS, JavaScript </li>
                             <li>Integrated APIs to showcase customer reviews, feedback and news releases</li>
@@ -63,15 +63,14 @@ export default function Home() {
                         </ul>
                     </div>
                 </div>
-                <div className="collapse collapse-arrow bg-secondary">
-                    <input type="radio" name="my-accordion-2" />
+                <div className="bg-secondary">
                     <div className="collapse-title text-xl font-medium">
                         <div className="text-xl font-medium flex justify-between">
                             <h2 className="font-bold">Zenith Prep Academy</h2><h2>September 2019 - April 2020</h2>
                         </div>
                         <span className="italic font-light text-base">Web & Software Development Instructor </span>
                     </div>
-                    <div className="collapse-content">
+                    <div className="collapse-content visible">
                         <ul>
                             <li>Instructed students in JavaScript, PHP , HTML, CSS, jQuery, MySQL, APACHE, XAMPP</li>
                         </ul>
