@@ -23,7 +23,7 @@ export default function Home() {
             <div className="notebook-row"></div>
             <div className="notebook-row"></div>
             <div className="notebook-row"></div>
-            <div className="container accordion-container mx-auto">
+            <div className="container accordion-container experience mx-auto">
                 <div className=" bg-secondary">
                     <div className="collapse-title text-xl font-medium">
                         <div className="text-xl font-medium flex justify-between">
@@ -52,7 +52,7 @@ export default function Home() {
                     </div>
                     <div className="collapse-content visible">
                         <ul>
-                            <li>Built out responsive pages on Nuxt utilizing HTML, SASS, JavaScript </li>
+                            <li>Built out responsive pages on Wordpress and Nuxt utilizing HTML, SASS, JavaScript </li>
                             <li>Integrated APIs to showcase customer reviews, feedback and news releases</li>
                             <li>Tested and optimized website pages for loading speed, Core Web Vitals, cross-browser
                                 functionality and ADA compliance</li>
