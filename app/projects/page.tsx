@@ -34,7 +34,7 @@ export default function Home() {
                     </div>
                     <div className="collapse-content">
                         <ul>
-                            <li>React App<a className="external-link inline-block" href="https://d1yprzvrrxd9hi.cloudfront.net/"><Image alt="external link" width={20} src={LinkIcon} className='fill-red-100' /></a> that allows users to create, search and host landing pages to promote their conventions</li>
+                            <li>React App<a className="external-link inline-block" href="https://d1yprzvrrxd9hi.cloudfront.net/"><Image alt="external-link" width={20} src={LinkIcon} className='fill-red-100 projects' /></a> that allows users to create, search and host landing pages to promote their conventions</li>
                             <li>Utilizes AWS lambda and cloud services, DynamoDB, S3 and CloudFront</li>
                         </ul>
                     </div>
