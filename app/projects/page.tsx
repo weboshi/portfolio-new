@@ -40,7 +40,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="collapse collapse-arrow bg-secondary">
-                    <input type="radio" name="my-accordion-2" defaultChecked />
+                    <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title text-xl font-medium">
                         <div className="text-xl font-medium flex justify-between ">
                             <h2 className="font-bold flex">Demo Patient Panel UI</h2><h2></h2>
@@ -55,7 +55,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="collapse collapse-arrow bg-secondary">
-                    <input type="radio" name="my-accordion-2" defaultChecked />
+                    <input type="radio" name="my-accordion-2" />
                     <div className="collapse-title text-xl font-medium">
                         <div className="text-xl font-medium flex justify-between ">
                             <h2 className="font-bold flex">ConventionMaker</h2><h2></h2>
