@@ -24,7 +24,37 @@ export default function Home() {
             <div className="notebook-row"></div>
             <div className="notebook-row"></div>
             <div className="container accordion-container mx-auto">
-            <div className="collapse collapse-arrow bg-secondary">
+                <div className="collapse collapse-arrow bg-secondary">
+                    <input type="radio" name="my-accordion-2" defaultChecked />
+                    <div className="collapse-title text-xl font-medium">
+                        <div className="text-xl font-medium flex justify-between ">
+                            <h2 className="font-bold flex">Buydol</h2><h2></h2>
+                        </div>
+                        <span className="italic font-light text-base">NextJS, Postgres, Prisma App</span>
+                    </div>
+                    <div className="collapse-content">
+                        <ul>
+                            <li>Full-stack App<a className="external-link inline-block" href="https://buydol.com/"><Image alt="external-link" width={20} src={LinkIcon} className='fill-red-100 projects' /></a> that allows users to login with sso, create posts, like posts, follow users and receive notificaitons.</li>
+                            <li>Utilizes NextJS, Postgres, Neon, Serverless backend, Shadcn, Tailwind, Prisma ORM</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="collapse collapse-arrow bg-secondary">
+                    <input type="radio" name="my-accordion-2" defaultChecked />
+                    <div className="collapse-title text-xl font-medium">
+                        <div className="text-xl font-medium flex justify-between ">
+                            <h2 className="font-bold flex">Demo Patient Panel UI</h2><h2></h2>
+                        </div>
+                        <span className="italic font-light text-base">NextJS Demo</span>
+                    </div>
+                    <div className="collapse-content">
+                        <ul>
+                            <li>NextJS App<a className="external-link inline-block" href="https://main.d2dcllq3ph85wl.amplifyapp.com/"><Image alt="external-link" width={20} src={LinkIcon} className='fill-red-100 projects' /></a> that allows users to create, search and host landing pages to promote their conventions</li>
+                            <li>Utilizes NextJS, Tailwind</li>
+                        </ul>
+                    </div>
+                </div>
+                <div className="collapse collapse-arrow bg-secondary">
                     <input type="radio" name="my-accordion-2" defaultChecked />
                     <div className="collapse-title text-xl font-medium">
                         <div className="text-xl font-medium flex justify-between ">
