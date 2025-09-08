@@ -27,9 +27,9 @@ export default function Home() {
                 <div className=" bg-secondary">
                     <div className="collapse-title text-xl font-medium">
                         <div className="text-xl font-medium flex justify-between">
-                            <span className="text-xl block font-bold"><a className="text-blue-700 inline-block external-link" target="_blank" href="https://www.finoptima.ai/">FinOptima<Image alt="external link" width={20} src={LinkIcon} className='fill-red-100 inline-block' /></a></span><h2>September 2024 - November 2024</h2>
+                            <span className="text-xl block font-bold"><a className="text-blue-700 inline-block external-link" target="_blank" href="https://www.finoptima.ai/">FinOptima<Image alt="external link" width={20} src={LinkIcon} className='fill-red-100 inline-block' /></a></span><h2>September 2025 - Current</h2>
                         </div>
-                        <span className="italic font-light text-base font-bold">Front-end Engineer </span>
+                        <span className="italic font-light text-base font-bold">Front-end Engineer</span>
                     </div>
                     <div className="collapse-content visible">
                         <ul>
@@ -38,6 +38,21 @@ export default function Home() {
                             </li>
                             <li>
                                 Built out user interface, client components and panels
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div className=" bg-secondary">
+                    <div className="collapse-title text-xl font-medium">
+                        <div className="text-xl font-medium flex justify-between">
+                            <span className="text-xl block font-bold"><a className="text-blue-700 inline-block external-link" target="_blank" href="https://www.finoptima.ai/">Golden Spring Designs<Image alt="external link" width={20} src={LinkIcon} className='fill-red-100 inline-block' /></a></span><h2>June 20225 - July 2025</h2>
+                        </div>
+                        <span className="italic font-light text-base font-bold">Web Developer & Designer </span>
+                    </div>
+                    <div className="collapse-content visible">
+                        <ul>
+                            <li>
+                                Designed and built marketing site with NextJS, Tailwind
                             </li>
                         </ul>
                     </div>
