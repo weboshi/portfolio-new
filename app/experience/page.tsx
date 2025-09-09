@@ -85,12 +85,12 @@ export default function Home() {
                     </div>
                     <div className="collapse-content visible">
                         <ul>
-                            <li>Built out responsive pages on Wordpress and Nuxt utilizing HTML, SASS, JavaScript </li>
+                            <li>Built out responsive pages on Wordpress and Next utilizing HTML, SASS, JavaScript </li>
+                            <li>Developed internal CRM using AWS, DynamoDB, Lambda</li>
                             <li>Integrated APIs to showcase customer reviews, feedback and news releases</li>
                             <li>Tested and optimized website pages for loading speed, Core Web Vitals, cross-browser
                                 functionality and ADA compliance</li>
                             <li>Built deployment pipelines to AWS with Terraform</li>
-                            <li>Migrated site from Wordpress to Nuxt 3.x</li>
                             <li>Developed an interactive hardware page to support sales by showcasing company products</li>
                             <li>Received Q3 2020 Sapphire Award for leading the redesign and building of hardware page</li>
                         </ul>
