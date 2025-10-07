@@ -27,17 +27,19 @@ export default function Home() {
                 <div className=" bg-secondary">
                     <div className="collapse-title text-xl font-medium">
                         <div className="text-xl font-medium flex justify-between">
-                            <span className="text-xl block font-bold"><a className="text-blue-700 inline-block external-link" target="_blank" href="https://www.finoptima.ai/">FinOptima<Image alt="external link" width={20} src={LinkIcon} className='fill-red-100 inline-block' /></a></span><h2>September 2025 - Current</h2>
+                            <span className="text-xl block font-bold"><a className="text-blue-700 inline-block external-link" target="_blank" href="https://main.d3aobd805n21dx.amplifyapp.com/v2">FinOptima<Image alt="external link" width={20} src={LinkIcon} className='fill-red-100 inline-block' /></a></span><h2>September 2025 - Current</h2>
                         </div>
                         <span className="italic font-light text-base font-bold">Front-end Engineer</span>
                     </div>
                     <div className="collapse-content visible">
                         <ul>
                             <li>
-                                Redesigned and built marketing page
+                                Developed dynamic React interfaces in TypeScript connected to an AI-driven backend, using state
+                                management and modular components to ensure scalability and responsiveness
                             </li>
                             <li>
-                                Built out user interface, client components and panels
+                                Created user interface designs and workflows in Figma and Claude, converting design prototypes
+                                into intuitive and functional web experiences
                             </li>
                         </ul>
                     </div>
