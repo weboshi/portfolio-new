@@ -23,7 +23,7 @@ export default function Home() {
             <div className="notebook-row"></div>
             <div className="notebook-row"></div>
             <div className="notebook-row"></div>
-            <div className="container accordion-container mx-auto">
+            <div className="container accordion-container mx-auto projects">
                 <div className="collapse collapse-arrow bg-secondary">
                     <input type="radio" name="my-accordion-2" defaultChecked />
                     <div className="collapse-title text-xl font-medium">

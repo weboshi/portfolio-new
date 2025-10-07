@@ -114,7 +114,11 @@ ul {
   -moz-box-shadow: 3px 11px 7px -7px rgba(189, 189, 189, 1);
   box-shadow: 3px 11px 7px -7px rgba(189, 189, 189, 1);
   &.experience {
-    top: 450px;
+    top: 85%;
+
+  }
+  &.projects {
+    top: 85%;
   }
 }
 

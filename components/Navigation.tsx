@@ -13,7 +13,7 @@ export default function Navigation() {
         <ul className="menu menu-vertical text-lg lg:menu-horizontal">
           <li><Link href="/experience" className={currentPath === "/experience" ? "text-red-500 font-semibold" : "text-red-600"}>Experience</Link></li>
           <li><Link href="/projects" className={currentPath === "/projects" ? "text-green-500 font-semibold" : "text-green-600"}>Projects</Link></li>
-          <li><Link href="/about" className={currentPath === "/about" ? "text-blue-500 font-semibold" : "text-blue-600"}>About</Link></li>
+          <li><Link href="/about" className={currentPath === "/about" ? "text-blue-500 font-semibold" : "text-blue-600"}>About Me</Link></li>
         </ul>
       </div>
     </div>
