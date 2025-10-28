@@ -40,7 +40,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={fuzzyBubbles.className}>{children}</body>
+      <body className={fuzzyBubbles.className}>
+        {children}
+        <footer className="footer">
+          <p>&copy; {new Date().getFullYear()} All rights reserved.</p>
+        </footer>
+      </body>
     </html>
   );
 }

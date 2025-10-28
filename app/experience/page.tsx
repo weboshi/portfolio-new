@@ -12,17 +12,6 @@ export default function Home() {
             <h1 className="notebook-header mb-10 mt-10">
                 Work Experience
             </h1>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
             <div className="container accordion-container experience mx-auto">
                 <div className=" bg-secondary">
                     <div className="collapse-title text-xl font-medium">

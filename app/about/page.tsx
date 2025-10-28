@@ -12,17 +12,6 @@ export default function Home() {
                 About Me
             </h1>
             <div className="red-divider"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
-            <div className="notebook-row"></div>
             <div className="columns-2 sticky-note-position">
                 <div className="sticky-note-styling -rotate-[5deg]">
                     <Image
