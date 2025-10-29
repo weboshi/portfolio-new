@@ -21,12 +21,54 @@
   position: relative;
 }
 
-.navbar a {
-  text-decoration: none !important;
+/* Remove DaisyUI hover effects on menu items */
+.navbar .menu li {
+  background-color: transparent !important;
 }
 
-.navbar a:hover {
-  text-decoration: none !important;
+.navbar .menu li:hover {
+  background-color: transparent !important;
+}
+
+.navbar .menu a {
+  background-color: transparent !important;
+}
+
+.navbar .menu a:hover {
+  background-color: transparent !important;
+}
+
+/* Prevent visited link color change - preserve Tailwind color classes */
+.navbar .menu li:nth-child(1) a:visited {
+  color: rgb(220 38 38) !important; /* red-600 */
+}
+
+.navbar .menu li:nth-child(2) a:visited {
+  color: rgb(22 163 74) !important; /* green-600 */
+}
+
+.navbar .menu li:nth-child(3) a:visited {
+  color: rgb(147 51 234) !important; /* purple-600 */
+}
+
+.navbar .menu li:nth-child(4) a:visited {
+  color: rgb(37 99 235) !important; /* blue-600 */
+}
+
+.mobile-nav-drawer li:nth-child(1) a:visited {
+  color: rgb(220 38 38) !important; /* red-600 */
+}
+
+.mobile-nav-drawer li:nth-child(2) a:visited {
+  color: rgb(22 163 74) !important; /* green-600 */
+}
+
+.mobile-nav-drawer li:nth-child(3) a:visited {
+  color: rgb(147 51 234) !important; /* purple-600 */
+}
+
+.mobile-nav-drawer li:nth-child(4) a:visited {
+  color: rgb(37 99 235) !important; /* blue-600 */
 }
 
 .blue-border {

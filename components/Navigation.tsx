@@ -28,10 +28,10 @@ export default function Navigation() {
 
         {/* Desktop menu - hidden on mobile */}
         <ul className="menu menu-vertical text-lg lg:menu-horizontal hidden lg:flex">
-          <li><Link href="/experience" className={currentPath === "/experience" ? "text-red-500 font-semibold" : "text-red-600"}>Experience</Link></li>
-          <li><Link href="/projects" className={currentPath === "/projects" ? "text-green-500 font-semibold" : "text-green-600"}>Projects</Link></li>
-          <li><Link href="/designs" className={currentPath === "/designs" ? "text-purple-500 font-semibold" : "text-purple-600"}>Designs</Link></li>
-          <li><Link href="/about" className={currentPath === "/about" ? "text-blue-500 font-semibold" : "text-blue-600"}>About Me</Link></li>
+          <li><Link href="/experience" className={currentPath === "/experience" ? "text-red-600 underline underline-offset-4" : "text-red-600 hover:underline hover:underline-offset-4"}>Experience</Link></li>
+          <li><Link href="/projects" className={currentPath === "/projects" ? "text-green-600 underline underline-offset-4" : "text-green-600 hover:underline hover:underline-offset-4"}>Projects</Link></li>
+          <li><Link href="/designs" className={currentPath === "/designs" ? "text-purple-600 underline underline-offset-4" : "text-purple-600 hover:underline hover:underline-offset-4"}>Designs</Link></li>
+          <li><Link href="/about" className={currentPath === "/about" ? "text-blue-600 underline underline-offset-4" : "text-blue-600 hover:underline hover:underline-offset-4"}>About Me</Link></li>
         </ul>
 
         {/* Mobile menu drawer */}
@@ -44,10 +44,10 @@ export default function Navigation() {
             ✕
           </button>
           <ul>
-            <li><Link href="/experience" onClick={() => setIsMenuOpen(false)} className={currentPath === "/experience" ? "text-red-500 font-semibold" : "text-red-600"}>Experience</Link></li>
-            <li><Link href="/projects" onClick={() => setIsMenuOpen(false)} className={currentPath === "/projects" ? "text-green-500 font-semibold" : "text-green-600"}>Projects</Link></li>
-            <li><Link href="/designs" onClick={() => setIsMenuOpen(false)} className={currentPath === "/designs" ? "text-purple-500 font-semibold" : "text-purple-600"}>Designs</Link></li>
-            <li><Link href="/about" onClick={() => setIsMenuOpen(false)} className={currentPath === "/about" ? "text-blue-500 font-semibold" : "text-blue-600"}>About Me</Link></li>
+            <li><Link href="/experience" onClick={() => setIsMenuOpen(false)} className={currentPath === "/experience" ? "text-red-600 underline underline-offset-4" : "text-red-600 hover:underline hover:underline-offset-4"}>Experience</Link></li>
+            <li><Link href="/projects" onClick={() => setIsMenuOpen(false)} className={currentPath === "/projects" ? "text-green-600 underline underline-offset-4" : "text-green-600 hover:underline hover:underline-offset-4"}>Projects</Link></li>
+            <li><Link href="/designs" onClick={() => setIsMenuOpen(false)} className={currentPath === "/designs" ? "text-purple-600 underline underline-offset-4" : "text-purple-600 hover:underline hover:underline-offset-4"}>Designs</Link></li>
+            <li><Link href="/about" onClick={() => setIsMenuOpen(false)} className={currentPath === "/about" ? "text-blue-600 underline underline-offset-4" : "text-blue-600 hover:underline hover:underline-offset-4"}>About Me</Link></li>
           </ul>
         </div>
 
