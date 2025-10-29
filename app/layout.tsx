@@ -5,6 +5,7 @@ import { Mali } from 'next/font/google'
 import { Fuzzy_Bubbles } from 'next/font/google'
 
 import { Patrick_Hand } from 'next/font/google';
+import Navigation from "../components/Navigation";
 import "./globals.css";
 import "./styles.scss";
 
@@ -41,6 +42,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={fuzzyBubbles.className}>
+        <Navigation />
         {children}
         <footer className="footer">
           <p>&copy; {new Date().getFullYear()} All rights reserved.</p>

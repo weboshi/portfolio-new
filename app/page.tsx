@@ -2,7 +2,6 @@
 
 import Image from "next/image";
 import Link from 'next/link';
-import Navigation from "../components/Navigation";
 import gitIcon from '../public/github.png';
 import linkedIcon from '../public/linkedin.png';
 import { useEffect, useRef } from 'react';
@@ -39,7 +38,6 @@ export default function Home() {
 
   return (
     <main className="items-center main-container">
-      <Navigation />
       <div className="sticky-note pb-3">
         <div id="vara-container" ref={varaContainerRef} className="text-center mb-5" style={{ minHeight: '50px' }}></div>
         <p className="hidden lg:block">I am a Full Stack Web Developer that loves building apps.</p>

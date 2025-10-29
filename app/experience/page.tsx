@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Navigation from "../../components/Navigation";
 import LinkIcon from "../../public/link.svg";
 
 
@@ -8,7 +7,6 @@ export default function Home() {
     return (
         <main className="items-center">
             <div className="red-divider"></div>
-            <Navigation />
             <h1 className="notebook-header mb-10 mt-10">
                 Work Experience
             </h1>
@@ -29,6 +27,9 @@ export default function Home() {
                             <li>
                                 Created user interface designs and workflows in Figma and Claude, converting design prototypes
                                 into intuitive and functional web experiences
+                            </li>
+                            <li>
+                                Designed and built responsive customer-facing website with NextJS, Tailwind, Motion
                             </li>
                         </ul>
                     </div>

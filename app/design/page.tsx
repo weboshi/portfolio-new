@@ -1,103 +1,59 @@
 import Image from "next/image";
-import Navigation from "../../components/Navigation";
-import LinkIcon from "../../public/link.svg";
-
+import PlanlyLogo from "../../public/ui-images/Planly_Check_Version_Transparent.png";
+import PlanlyLogo2 from "../../public/ui-images/Planly_PA.png";
 
 
 export default function Home() {
     return (
         <main className="items-center">
             <div className="red-divider"></div>
-            <Navigation />
             <h1 className="notebook-header mb-10 mt-10">
-                Work Experience
+                Designs
             </h1>
-            <div className="container accordion-container experience mx-auto">
-                <div className=" bg-secondary">
-                    <div className="collapse-title text-xl font-medium">
-                        <div className="text-xl font-medium flex justify-between">
-                            <span className="text-xl block font-bold"><a className="text-blue-700 inline-block external-link" target="_blank" href="https://cs.finoptima.ai/">FinOptima<Image alt="external link" width={20} src={LinkIcon} className='fill-red-100 inline-block' /></a></span><h2>September 2025 - Current</h2>
+
+            <div className="container mx-auto px-4 mb-20 font-['Inter',sans-serif] relative z-10">
+                {/* Two column layout: Description on left, Main Dashboard on right */}
+                <div className="grid grid-cols-1 lg:grid-cols-1 gap-8 mb-12">
+                    <div className="sticky-note-styling w-auto relative">
+
+                        <div className="flex justify-between items-center">
+                            <div className="">
+                                <p className="font-bold text-lg">Planly - Travel Planning App</p>
+                            </div>
+                            <a
+                                href="https://www.figma.com/proto/3gUBtz9XpVp0eSZT0ySUMp/PLANLY-UI?page-id=0%3A1&node-id=1-3&p=f&viewport=220%2C-3484%2C0.72&t=dguKAaGUobPbm8rv-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=1%3A3&show-proto-sidebar=1"
+                                target="_blank"
+                                className="bg-blue-700 text-nowrap text-white px-4 py-2 rounded-lg font-bold hover:bg-blue-900 transition-colors text-sm"
+                            >
+                                View Figma Prototype
+                            </a>
                         </div>
-                        <span className="italic font-light text-base font-bold">Front-end Engineer</span>
-                    </div>
-                    <div className="collapse-content visible">
-                        <ul>
-                            <li>
-                                Developed dynamic React interfaces in TypeScript connected to an AI-driven backend, using state
-                                management and modular components to ensure scalability and responsiveness
-                            </li>
-                            <li>
-                                Created user interface designs and workflows in Figma and Claude, converting design prototypes
-                                into intuitive and functional web experiences
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div className=" bg-secondary">
-                    <div className="collapse-title text-xl font-medium">
-                        <div className="text-xl font-medium flex justify-between">
-                            <span className="text-xl block font-bold"><a className="text-blue-700 inline-block external-link" target="_blank" href="https://goldenspringdesigns.com/">Golden Spring Designs<Image alt="external link" width={20} src={LinkIcon} className='fill-red-100 inline-block' /></a></span><h2>June 2025 - July 2025</h2>
+                        <p className="text-sm w-full lg:w-1/2">Figma and logo design for a collaborative travel planning app that helps friends organize trips together through shared itineraries, group chat, task assignments, and member management.
+                        </p>
+                        <p className="text-base font-bold mt-8 mb-2">Logo Variants:</p>
+                        <div className="flex justify-start items-center">
+                            <Image
+                                src={PlanlyLogo}
+                                alt="Planly Logo"
+                                className="w-40 mr-6"
+                            />
+                            <Image
+                                src={PlanlyLogo2}
+                                alt="Planly Logo"
+                                className="w-40"
+                            />
                         </div>
-                        <span className="italic font-light text-base font-bold">Web Developer & Designer </span>
-                    </div>
-                    <div className="collapse-content visible">
-                        <ul>
-                            <li>
-                                Designed and built marketing site with NextJS, Tailwind
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div className=" bg-secondary">
-                    <div className="collapse-title text-xl font-medium">
-                        <div className="text-xl font-medium flex justify-between">
-                            <span className="text-xl block font-bold"><a className="text-blue-700 inline-block external-link" target="_blank" href="https://redymr.com/">Redymr<Image alt="external link" width={20} src={LinkIcon} className='fill-red-100 inline-block' /></a></span><h2>September 2024 - November 2024</h2>
+
+                        <div className="mt-10">
+                            <video
+                                controls
+                                className="w-full rounded-lg shadow-lg"
+                                preload="metadata"
+                            >
+                                <source src="/ui-images/Planly_UI_Video.mp4" type="video/mp4" />
+                                Your browser does not support the video tag.
+                            </video>
                         </div>
-                        <span className="italic font-light text-base font-bold">Web & Mobile App Developer </span>
-                    </div>
-                    <div className="collapse-content visible">
-                        <ul>
-                            <li>
-                                Redesigned pages to enhance user experience and flow
-                            </li>
-                            <li>
-                                Optimized pages to improve load times and meet web standards
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="bg-secondary">
-                    <div className="collapse-title text-xl font-medium">
-                        <div className="text-xl font-medium flex justify-between">
-                            <span className="text-xl block font-bold"><a className="text-blue-700 inline-block external-link" target="_blank" href="https://web.archive.org/web/20230920140450/https://revelsystems.com/">Revel Systems<Image alt="external link" width={20} src={LinkIcon} className='fill-red-100 inline-block' /></a></span>
-                            <span>November 2019 - June 2024</span>
-                        </div>
-                        <span className="italic font-light text-base font-bold">Web Developer</span>
-                    </div>
-                    <div className="collapse-content visible">
-                        <ul>
-                            <li>Built out responsive pages on Wordpress and Next utilizing HTML, SASS, JavaScript </li>
-                            <li>Developed internal CRM using AWS, DynamoDB, Lambda</li>
-                            <li>Integrated APIs to showcase customer reviews, feedback and news releases</li>
-                            <li>Tested and optimized website pages for loading speed, Core Web Vitals, cross-browser
-                                functionality and ADA compliance</li>
-                            <li>Built deployment pipelines to AWS with Terraform</li>
-                            <li>Developed an interactive hardware page to support sales by showcasing company products</li>
-                            <li>Received Q3 2020 Sapphire Award for leading the redesign and building of hardware page</li>
-                        </ul>
-                    </div>
-                </div>
-                <div className="bg-secondary">
-                    <div className="collapse-title text-xl font-medium">
-                        <div className="text-xl font-medium flex justify-between">
-                            <h2 className="font-bold">Zenith Prep Academy</h2><h2>September 2019 - April 2020</h2>
-                        </div>
-                        <span className="italic font-light text-base">Web & Software Development Instructor </span>
-                    </div>
-                    <div className="collapse-content visible">
-                        <ul>
-                            <li>Instructed students in JavaScript, PHP , HTML, CSS, jQuery, MySQL, APACHE, XAMPP</li>
-                        </ul>
                     </div>
                 </div>
             </div>

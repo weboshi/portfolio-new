@@ -1,13 +1,10 @@
 import Image from "next/image";
-import Link from "next/link";
-import Navigation from "../../components/Navigation";
 import profilePic from '../../public/about_me.jpg'
 
 
 export default function Home() {
     return (
         <main className="items-center">
-            <Navigation />
             <h1 className="notebook-header mb-10 mt-10">
                 About Me
             </h1>
