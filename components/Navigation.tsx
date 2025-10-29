@@ -30,7 +30,7 @@ export default function Navigation() {
         <ul className="menu menu-vertical text-lg lg:menu-horizontal hidden lg:flex">
           <li><Link href="/experience" className={currentPath === "/experience" ? "text-red-500 font-semibold" : "text-red-600"}>Experience</Link></li>
           <li><Link href="/projects" className={currentPath === "/projects" ? "text-green-500 font-semibold" : "text-green-600"}>Projects</Link></li>
-          <li><Link href="/design" className={currentPath === "/design" ? "text-purple-500 font-semibold" : "text-purple-600"}>Designs</Link></li>
+          <li><Link href="/designs" className={currentPath === "/designs" ? "text-purple-500 font-semibold" : "text-purple-600"}>Designs</Link></li>
           <li><Link href="/about" className={currentPath === "/about" ? "text-blue-500 font-semibold" : "text-blue-600"}>About Me</Link></li>
         </ul>
 
@@ -46,7 +46,7 @@ export default function Navigation() {
           <ul>
             <li><Link href="/experience" onClick={() => setIsMenuOpen(false)} className={currentPath === "/experience" ? "text-red-500 font-semibold" : "text-red-600"}>Experience</Link></li>
             <li><Link href="/projects" onClick={() => setIsMenuOpen(false)} className={currentPath === "/projects" ? "text-green-500 font-semibold" : "text-green-600"}>Projects</Link></li>
-            <li><Link href="/design" onClick={() => setIsMenuOpen(false)} className={currentPath === "/design" ? "text-purple-500 font-semibold" : "text-purple-600"}>Designs</Link></li>
+            <li><Link href="/designs" onClick={() => setIsMenuOpen(false)} className={currentPath === "/designs" ? "text-purple-500 font-semibold" : "text-purple-600"}>Designs</Link></li>
             <li><Link href="/about" onClick={() => setIsMenuOpen(false)} className={currentPath === "/about" ? "text-blue-500 font-semibold" : "text-blue-600"}>About Me</Link></li>
           </ul>
         </div>
