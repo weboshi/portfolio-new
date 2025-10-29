@@ -109,8 +109,7 @@ ul {
   padding: 3rem;
   line-height: 2;
   font-size: 1.25rem;
-  min-width: 900px;
-  max-width: 1000px;
+  width: 50%;
 }
 
 .sticky-note-styling {

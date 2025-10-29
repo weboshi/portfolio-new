@@ -30,6 +30,7 @@ export default function Home() {
             strokeWidth: 2,
             color: '#000',
             duration: isMobile ? 2000 : 3000,
+            textAlign: "center",
           },
         ]
       );
@@ -38,8 +39,8 @@ export default function Home() {
 
   return (
     <main className="items-center main-container">
-      <div className="sticky-note pb-3">
-        <div id="vara-container" ref={varaContainerRef} className="text-center mb-5" style={{ minHeight: '50px' }}></div>
+      <div className="sticky-note pb-3 flex flex-col justify-center items-center">
+        <div id="vara-container" ref={varaContainerRef} className="text-center mb-5 w-full" style={{ minHeight: '50px' }}></div>
         <p className="hidden lg:block">I am a Full Stack Web Developer that loves building apps.</p>
         <p className="block lg:hidden">My name is Andy and I am a Full Stack Web Developer that loves building apps.</p>
         <div className="flex flex-row mt-8">

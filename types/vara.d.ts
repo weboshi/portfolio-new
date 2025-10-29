@@ -8,6 +8,7 @@ declare module 'vara' {
     delay?: number;
     id?: number;
     autoAnimation?: boolean;
+    textAlign?: string;
   }
 
   class Vara {
